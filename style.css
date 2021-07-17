@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: white;
+    
+    padding: 2rem;
+
+}
+header h1{
+    color:lightslategray;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+.score-board{
+    border: 3px solid white;
+    width: 250px;
+    margin: 20px auto;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+
+
+.badge{
+    background-color:tomato;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#user-label{
+    position: absolute;
+    top: 35px;
+    left: -25px;
+}
+
+#computer-label{
+    position: absolute;
+    top: 35px;
+    left: 220px;
+}
+
+
+.result{
+    font-size: 40px;
+    color: white;
+}
+
+.result >p{
+    text-align: center;
+}
+
+.choice{
+    display: inline-block;
+    border: 4px solid red;
+    margin: 0 20px;
+    border-radius: 30%;
+    transition: all 0.3s ease;
+
+
+}
+
+.choices{
+    text-align: center;
+    margin: 50px;
+    
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: goldenrod;
+
+}
+
+#action-message{
+    background-color: indianred;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
